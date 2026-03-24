@@ -12,15 +12,6 @@ Why:
 - simpler to keep each topic in a separate file
 - better for version control and final project organization
 
-Use **notebooks** when:
-- you want to explain step by step in class
-- you want plots, intermediate outputs, and experiments in one place
-- you are still learning and debugging
-
-Best practical choice:
-- keep these `.py` files as the main working codes
-- optionally convert 1 or 2 into notebooks later for demo/explanation
-
 ## File list
 
 1. `01_mnist_mlp.py` - MLP for MNIST with activation/loss options  
@@ -48,7 +39,6 @@ Best practical choice:
 - `06_celeba_basic_gan.py` -> image folder
 
 ## How to run
-
 Create environment and install requirements:
 
 ```bash
@@ -102,8 +92,4 @@ Trains the same model with two optimizers and compares convergence.
 ### 10) Data augmentation + early stopping
 Augments training images and stops training when validation stops improving.
 
-## Suggestion
 
-For viva/demo:
-- run 1, 4, 7, 9 first
-- explain 2, 5, 6 as dataset-dependent extensions
